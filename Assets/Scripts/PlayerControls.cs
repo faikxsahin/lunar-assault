@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +15,13 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         float xThrow = Input.GetAxis("Horizontal");
-        Debug.Log(xThrow);
-
         float yThrow = Input.GetAxis("Vertical");
-        Debug.Log(yThrow);
+
+        // Change horizontal position
+        float xOffSet = .1f;
+        float newXPos = transform.localPosition.x + xOffSet;
+
+        transform.localPosition = new Vector3(newXPos, transform.localPosition.y, transform.localPosition.z);
     }
+
 }
