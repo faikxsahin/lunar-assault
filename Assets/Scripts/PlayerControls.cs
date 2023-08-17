@@ -5,23 +5,22 @@ using UnityEngine;
 public class PlayerControls : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    [SerializeField] float controlSpeed = 28f;
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
         float xThrow = Input.GetAxis("Horizontal");
         float yThrow = Input.GetAxis("Vertical");
 
         // Change horizontal position
-        float xOffSet = .1f;
+        float xOffSet = xThrow * Time.deltaTime * controlSpeed;
         float newXPos = transform.localPosition.x + xOffSet;
 
-        transform.localPosition = new Vector3(newXPos, transform.localPosition.y, transform.localPosition.z);
+        // Change vertical position
+        float yOffSet = yThrow * Time.deltaTime * controlSpeed;
+        float newYPos = transform.localPosition.y + yOffSet;
+
+        transform.localPosition = new Vector3(newXPos, newYPos, transform.localPosition.z);
     }
 
 }
