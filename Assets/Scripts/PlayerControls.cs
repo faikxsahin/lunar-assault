@@ -6,9 +6,9 @@ public class PlayerControls : MonoBehaviour
 {
 
     // Translation Variables
-    [SerializeField] float controlSpeed = 28f;
-    [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 7f;
+    [SerializeField] float controlSpeed = 30f;
+    [SerializeField] float xRange = 15f;
+    [SerializeField] float yRange = 10f;
 
     // Rotation Variables
     [SerializeField] float positionPitchFactor = -2f;

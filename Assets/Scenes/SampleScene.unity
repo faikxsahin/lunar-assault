@@ -495,7 +495,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -618,6 +618,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 276583576}
     m_Modifications:
+    - target: {fileID: 33871797154724230, guid: 22612cb9f963249c6b823ed0accbbed7, type: 3}
+      propertyPath: xRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 33871797154724230, guid: 22612cb9f963249c6b823ed0accbbed7, type: 3}
+      propertyPath: yRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 33871797154724230, guid: 22612cb9f963249c6b823ed0accbbed7, type: 3}
+      propertyPath: controlSpeed
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8454751469430707815, guid: 22612cb9f963249c6b823ed0accbbed7, type: 3}
       propertyPath: m_Name
       value: Player Ship
