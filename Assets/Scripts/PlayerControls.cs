@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,9 @@ public class PlayerControls : MonoBehaviour
     [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;
     [SerializeField] float controlRollFactor = -20f;
+
+    // Firing Variables
+    [SerializeField] GameObject[] lasers;
 
     // Input Variables
     float xThrow, yThrow;
@@ -56,15 +60,31 @@ public class PlayerControls : MonoBehaviour
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
-    void ProcessFiring() 
+    void ProcessFiring()
     {
         if (Input.GetButton("Fire1"))
         {
-            Debug.Log("I'm shooting!");
+            ActiveLasers();
         }
         else
         {
-            Debug.Log("I'm not shooting!");
+            DeactivateLasers();
+        }
+    }
+
+    void ActiveLasers()
+    {
+        foreach (GameObject laser in lasers)
+        {
+            laser.SetActive(true);
+        }
+    }
+
+    void DeactivateLasers()
+    {
+        foreach (GameObject laser in lasers)
+        {
+            laser.SetActive(false);
         }
     }
 
