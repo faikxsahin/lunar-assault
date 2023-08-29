@@ -23,6 +23,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessTranslation()
@@ -53,6 +54,18 @@ public class PlayerControls : MonoBehaviour
         float roll = xThrow * controlRollFactor;
 
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+    }
+
+    void ProcessFiring() 
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            Debug.Log("I'm shooting!");
+        }
+        else
+        {
+            Debug.Log("I'm not shooting!");
+        }
     }
 
 }
