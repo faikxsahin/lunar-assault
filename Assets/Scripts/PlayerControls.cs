@@ -7,17 +7,22 @@ public class PlayerControls : MonoBehaviour
 {
 
     // Translation Variables
+    [Header("General Setup Settings")]
     [SerializeField] float controlSpeed = 30f;
     [SerializeField] float xRange = 15f;
     [SerializeField] float yRange = 10f;
 
     // Rotation Variables
+    [Header("Screen Position Based Tuning")]
     [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;
+    [Header("Player Input Based Tuning")]
+    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float controlRollFactor = -20f;
 
     // Firing Variables
+    [Header("Laser Gun Array")]
+    [Tooltip("Add all player lasers here.")]
     [SerializeField] GameObject[] lasers;
 
     // Input Variables
