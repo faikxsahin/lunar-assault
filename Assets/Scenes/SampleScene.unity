@@ -549,5 +549,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 8221783666324788084, guid: b1b7e3bee96924cb3ab87a9404d0bbfb, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1b7e3bee96924cb3ab87a9404d0bbfb, type: 3}
