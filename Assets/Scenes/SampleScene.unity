@@ -558,6 +558,10 @@ PrefabInstance:
       propertyPath: lasers.Array.data[1]
       value: 
       objectReference: {fileID: 1328453412}
+    - target: {fileID: 3423148299778290901, guid: b1b7e3bee96924cb3ab87a9404d0bbfb, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7375873970246130019, guid: b1b7e3bee96924cb3ab87a9404d0bbfb, type: 3}
       propertyPath: m_RootOrder
       value: 2
