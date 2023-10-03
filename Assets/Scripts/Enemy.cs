@@ -5,13 +5,33 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
+    // VFX
     [SerializeField] GameObject deathVFX;
     [SerializeField] Transform parent;
 
+    // Score Board
+    [SerializeField] int scorePerHit = 15;
+
+    ScoreBoard scoreBoard;
+
+    void Start()
+    {
+        scoreBoard = FindObjectOfType<ScoreBoard>();
+    }
+
     void OnParticleCollision(GameObject other)
     {
-        // Debug.Log($"{name} hit by {other.gameObject.name}!");
+        ProcessHit();
+        KillEnemy();
+    }
 
+    void ProcessHit()
+    {
+        scoreBoard.IncreaseScore(scorePerHit);
+    }
+
+    void KillEnemy()
+    {
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parent;
         Destroy(gameObject);
