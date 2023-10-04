@@ -161,8 +161,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 5943752422801263109, guid: 2a5a691a0a77b41548589fa7c184267f, type: 3}
+  hitVFX: {fileID: 5943752422801263109, guid: d64f3f8e544b54f64bad8574152bf782, type: 3}
   parent: {fileID: 2073642395}
   scorePerHit: 15
+  hitPoints: 4
 --- !u!136 &383764979
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -375,8 +377,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 5943752422801263109, guid: 2a5a691a0a77b41548589fa7c184267f, type: 3}
+  hitVFX: {fileID: 5943752422801263109, guid: d64f3f8e544b54f64bad8574152bf782, type: 3}
   parent: {fileID: 2073642395}
   scorePerHit: 15
+  hitPoints: 4
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 3643588720911899274, guid: 9c9281f3c1b4d4e2cb18455212095b73, type: 3}
@@ -614,8 +618,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 5943752422801263109, guid: 2a5a691a0a77b41548589fa7c184267f, type: 3}
+  hitVFX: {fileID: 5943752422801263109, guid: d64f3f8e544b54f64bad8574152bf782, type: 3}
   parent: {fileID: 2073642395}
   scorePerHit: 15
+  hitPoints: 4
 --- !u!136 &1312680922
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -738,8 +744,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 5943752422801263109, guid: 2a5a691a0a77b41548589fa7c184267f, type: 3}
+  hitVFX: {fileID: 5943752422801263109, guid: d64f3f8e544b54f64bad8574152bf782, type: 3}
   parent: {fileID: 2073642395}
   scorePerHit: 15
+  hitPoints: 4
 --- !u!136 &1538025519
 CapsuleCollider:
   m_ObjectHideFlags: 0
