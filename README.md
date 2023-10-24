@@ -2,7 +2,7 @@
 
 Lunar Assault is a sci-fi 3D arcade flight game. The Planet Luna is under attack and it is your mission to save it! The main goal is to get from starting area to end without crashing to the enemies or environment. There is also a scoreboard at the bottom left corner of the screen which increases based on the enemy's type.
 
-This is the most challenging game I have ever developed till today. I had faced various problems but it was a great experience to solve them. I have a better understanding of problem solving. Also, this project made me understand Unity Asset implementation which made a great impact on how the game looks. Even though it was difficult to develop, I enjoyed the the process very much. I felt the game keeps evolving as I added new features. When I was a kid, I used to go to local Arcade and play games like these. (I still play games like this btw :D) So, developing an arcade flight game means a lot to me. I am very satisfied with the final look of the project.
+This is the most challenging game I have ever developed till today. I had faced various problems but it was a great experience. I have a better understanding of problem solving. Also, this project made me understand Unity Asset implementation which made a great impact on how the game looks. Even though it was difficult to develop, I enjoyed the the process very much. I felt the game keeps evolving as I added new features. When I was a kid, I used to go to local Arcade and play games like these. (I still play games like this btw :D) So, developing an arcade flight game means a lot to me. Although the game is short, I think it greatly shows my game developer skills for today. I am very satisfied with the final look of the project.
 
 I learned and experimented many new Unity terms and features:
 * Adding, texturing and manipulating the Terrain.
@@ -29,6 +29,8 @@ I learned and experimented many new Unity terms and features:
 * Using Singleton Pattern for Music Player.
 * Using Skybox and Lightning features.
 * How to do simple Post Processing.
+
+You can play the game from this [link](https://sharemygame.com/@FaikSahin/lunar-assault) :)
 
 <img width="965" alt="Screenshot 2023-10-23 at 19 01 51" src="https://github.com/faikxsahin/lunar-assault/assets/116440356/0081947b-f754-4b81-8adf-93f304338583">
 
