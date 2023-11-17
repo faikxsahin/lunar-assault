@@ -1,4 +1,4 @@
-# Lunar Assault (In Progress)
+# Lunar Assault
 
 Lunar Assault is a sci-fi 3D arcade flight game. The Planet Luna is under attack and it is your mission to save it! The main goal is to get from starting area to end without crashing to the enemies or environment. There is also a scoreboard at the bottom left corner of the screen which increases based on the enemy's type.
 
